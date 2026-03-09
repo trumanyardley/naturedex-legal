@@ -1,6 +1,6 @@
 # Privacy Policy for NatureDex
 
-**Last updated: March 8, 2026**
+**Last updated: March 9, 2026**
 
 This Privacy Policy describes how NatureDex ("the App", "we", "us", or "our") handles your information. We are committed to being transparent about our practices.
 
@@ -17,10 +17,12 @@ NatureDex is a nature identification and logging app. You can photograph or uplo
 ## 2. Information We Collect
 
 ### a) Photos
-When you use the App to identify a species, your photo is sent to a third-party identification API solely to retrieve identification results. The photo is transmitted over an encrypted connection and is not stored, logged, or retained by us. Please refer to the third-party API provider's privacy policy for details on how they handle submitted images.
+When you submit a photo for identification, it is sent to **PlantNet** (plantnet.org), a third-party species identification API, to retrieve identification results. The photo is transmitted over an encrypted connection and is not stored, logged, or retained by us.
+
+**Please note:** Photos taken on your iPhone may contain embedded location metadata (EXIF data). This metadata is not stripped before your photo is sent to PlantNet. Please review [PlantNet's Privacy Policy](https://plantnet.org/en/privacy-policy/) for details on how they handle submitted images and any associated metadata.
 
 ### b) Location Data
-If you choose to save an identification to your NatureDex, the App may record the approximate GPS location of your sighting. This location data is stored **only on your device** and is never transmitted to us or any third party (except as part of the identification API request, if applicable).
+If you choose to save an identification to your NatureDex, the App may record the GPS location of your sighting. This location data is stored **only on your device** and is never transmitted to us.
 
 The App requests access to your location **only while the App is in use**. You can deny or revoke location access at any time in your iPhone's Settings — the core identification features will still work without it.
 
@@ -33,9 +35,11 @@ The App requests access to your device's camera and photo library so you can tak
 
 We use the information described above solely to provide the App's features:
 
-- Photos are sent to a third-party API to retrieve species identification data.
-- Location data is saved locally on your device to tag your sightings.
-- Camera and photo library access is used only when you actively initiate a photo or upload.
+- **Photos** are sent to PlantNet to retrieve species identification data.
+- **Species names** returned by PlantNet are sent to the **iNaturalist API** (inaturalist.org) to retrieve basic publicly available information about the identified species (such as common name, taxonomy, and description). No photos or location data are sent to iNaturalist.
+- **Species names** are also sent to the **Anthropic API** (anthropic.com) to generate a short AI-written summary about the identified species. Only the species name is sent — no photos, location data, or any other information.
+- **Location data** is saved locally on your device to tag your sightings.
+- **Camera and photo library access** is used only when you actively initiate a photo or upload.
 
 We do **not** use your information for advertising, analytics, tracking, or any other purpose.
 
@@ -51,15 +55,21 @@ If you delete the App, all associated data is permanently removed from your devi
 
 ## 5. Third-Party Services
 
-NatureDex uses a third-party species identification API to process photos. When you submit a photo for identification, it is sent to that API over an encrypted connection. We are not responsible for the data practices of third-party services. We encourage you to review their privacy policies.
+NatureDex relies on the following third-party services. We are not responsible for the data practices of these services and encourage you to review their respective privacy policies:
 
-Beyond this identification API, we do not integrate any third-party SDKs, analytics tools, advertising networks, or social platforms.
+| Service | Purpose | Data Sent |
+|---|---|---|
+| **PlantNet** (plantnet.org) | Species identification from photos | Photo (may include embedded location metadata) |
+| **iNaturalist** (inaturalist.org) | Basic species information lookup | Species name only |
+| **Anthropic** (anthropic.com) | AI-generated species summary text | Species name only |
+
+Beyond these services, we do not integrate any analytics tools, advertising networks, or social platforms.
 
 ---
 
 ## 6. Children's Privacy
 
-NatureDex is intended for a general audience and is not directed at children under the age of 13. We do not knowingly collect any personal information from children. Because all data is stored locally on the device and we collect no account information, the App does not transmit or store data about any user, including children.
+NatureDex is intended for a general audience and is not directed at children under the age of 13. We do not knowingly collect any personal information from children. Because all data is stored locally on the device and we collect no account information, the App does not transmit or store personal data about any user, including children.
 
 If you are a parent or guardian and have concerns about your child's use of the App, please contact us at the address below.
 
@@ -78,7 +88,7 @@ Because all data is stored on your device, you are in full control:
 
 ## 8. Data Security
 
-Photos submitted for identification are transmitted over encrypted HTTPS connections. Since we store no data on our end, there is no server-side data at risk of breach. Your on-device data is protected by your device's own security features (passcode, Face ID, etc.).
+Photos and species names submitted to third-party APIs are transmitted over encrypted HTTPS connections. Since we store no data on our end, there is no server-side data at risk of breach. Your on-device data is protected by your device's own security features (passcode, Face ID, etc.).
 
 ---
 
