@@ -1,14 +1,14 @@
-# Privacy Policy for NatureDex
+# Privacy Policy for Leafnote
 
 **Last updated: March 9, 2026**
 
-This Privacy Policy describes how NatureDex ("the App", "we", "us", or "our") handles your information. We are committed to being transparent about our practices.
+This Privacy Policy describes how Leafnote ("the App", "we", "us", or "our") handles your information. We are committed to being transparent about our practices.
 
 ---
 
 ## 1. Overview
 
-NatureDex is a nature identification and logging app. You can photograph or upload images of plants and animals to identify them, and optionally save those identifications — along with a photo and location — to your personal NatureDex on your device.
+Leafnote is a nature identification and logging app. You can photograph or upload images of plants and animals to identify them, and optionally save those identifications — along with a photo and location — to your personal Leafnote on your device.
 
 **We do not operate servers, collect personal data, or store any of your information remotely.** All data stays on your device.
 
@@ -22,7 +22,7 @@ When you submit a photo for identification, it is sent to **PlantNet** (plantnet
 **Please note:** Photos taken on your iPhone may contain embedded location metadata (EXIF data). This metadata is not stripped before your photo is sent to PlantNet. Please review [PlantNet's Privacy Policy](https://plantnet.org/en/privacy-policy/) for details on how they handle submitted images and any associated metadata.
 
 ### b) Location Data
-If you choose to save an identification to your NatureDex, the App may record the GPS location of your sighting. This location data is stored **only on your device** and is never transmitted to us.
+If you choose to save an identification to your Leafnote, the App may record the GPS location of your sighting. This location data is stored **only on your device** and is never transmitted to us.
 
 The App requests access to your location **only while the App is in use**. You can deny or revoke location access at any time in your iPhone's Settings — the core identification features will still work without it.
 
@@ -47,7 +47,7 @@ We do **not** use your information for advertising, analytics, tracking, or any 
 
 ## 4. Data Storage
 
-All data you save in NatureDex — including sighting records, photos, and locations — is stored **locally on your device only**. We have no servers, no databases, and no cloud infrastructure. We have no ability to access, view, or recover your data.
+All data you save in Leafnote — including sighting records, photos, and locations — is stored **locally on your device only**. We have no servers, no databases, and no cloud infrastructure. We have no ability to access, view, or recover your data.
 
 If you delete the App, all associated data is permanently removed from your device.
 
@@ -55,7 +55,7 @@ If you delete the App, all associated data is permanently removed from your devi
 
 ## 5. Third-Party Services
 
-NatureDex relies on the following third-party services. We are not responsible for the data practices of these services and encourage you to review their respective privacy policies:
+Leafnote relies on the following third-party services. We are not responsible for the data practices of these services and encourage you to review their respective privacy policies:
 
 | Service | Purpose | Data Sent |
 |---|---|---|
@@ -69,7 +69,7 @@ Beyond these services, we do not integrate any analytics tools, advertising netw
 
 ## 6. Children's Privacy
 
-NatureDex is intended for a general audience and is not directed at children under the age of 13. We do not knowingly collect any personal information from children. Because all data is stored locally on the device and we collect no account information, the App does not transmit or store personal data about any user, including children.
+Leafnote is intended for a general audience and is not directed at children under the age of 13. We do not knowingly collect any personal information from children. Because all data is stored locally on the device and we collect no account information, the App does not transmit or store personal data about any user, including children.
 
 If you are a parent or guardian and have concerns about your child's use of the App, please contact us at the address below.
 
@@ -102,9 +102,9 @@ We may update this Privacy Policy from time to time. If we make material changes
 
 If you have any questions or concerns about this Privacy Policy, please contact us at:
 
-**Truman Yardley**
-**truman.yardley@gmail.com**
+**[Your Name or Company Name]**
+**[Your Contact Email]**
 
 ---
 
-*This privacy policy was written for NatureDex, an iOS application.*
+*This privacy policy was written for Leafnote, an iOS application.*
