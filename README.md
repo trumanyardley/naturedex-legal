@@ -1,6 +1,6 @@
 # Privacy Policy for Leafnote
 
-**Last updated: March 13, 2026**
+**Last updated: March 26, 2026**
 
 This Privacy Policy describes how Leafnote ("the App", "we", "us", or "our") handles your information. We are committed to being transparent about our practices.
 
@@ -29,19 +29,30 @@ The App requests access to your location **only while the App is in use**. You c
 ### c) Camera & Photo Library
 The App requests access to your device's camera and photo library so you can take or upload photos for identification. We do not access, copy, or store any photos beyond what you explicitly submit for identification.
 
+### d) Analytics (Firebase)
+We use **Firebase Analytics**, a service provided by Google, to collect **anonymous usage data** to understand how the App is used and improve its functionality.
+
+This may include:
+- Basic app interactions (e.g., button taps, screen views)
+- General usage patterns (e.g., feature usage frequency)
+
+**No personally identifiable information (PII), photos, or location data are collected or transmitted through Firebase Analytics.**  
+All analytics data is aggregated and cannot be used to identify you.
+
 ---
 
 ## 3. How We Use Your Information
 
-We use the information described above solely to provide the App's features:
+We use the information described above solely to provide and improve the App's features:
 
 - **Photos** are sent to PlantNet to retrieve species identification data.
 - **Species names** returned by PlantNet are sent to the **iNaturalist API** (inaturalist.org) to retrieve basic publicly available information about the identified species (such as common name, taxonomy, and description). No photos or location data are sent to iNaturalist.
 - **Species names** are also sent to the **Anthropic API** (anthropic.com) to generate a short AI-written summary about the identified species. Only the species name is sent — no photos, location data, or any other information.
 - **Location data** is saved locally on your device to tag your sightings.
 - **Camera and photo library access** is used only when you actively initiate a photo or upload.
+- **Analytics data** is used in aggregate to understand app usage and improve features and user experience.
 
-We do **not** use your information for advertising, analytics, tracking, or any other purpose.
+We do **not** use your information for advertising or sell any data.
 
 ---
 
@@ -62,8 +73,7 @@ Leafnote relies on the following third-party services. We are not responsible fo
 | **PlantNet** (plantnet.org) | Species identification from photos | Photo (may include embedded location metadata) |
 | **iNaturalist** (inaturalist.org) | Basic species information lookup | Species name only |
 | **Anthropic** (anthropic.com) | AI-generated species summary text | Species name only |
-
-Beyond these services, we do not integrate any analytics tools, advertising networks, or social platforms.
+| **Firebase Analytics** (Google) | Anonymous app usage analytics | Aggregated usage data (no personal data) |
 
 ---
 
@@ -102,7 +112,7 @@ We may update this Privacy Policy from time to time. If we make material changes
 
 If you have any questions or concerns about this Privacy Policy, please contact us at:
 
-**Truman Yardley**
+**Truman Yardley**  
 **leafnote.contact@gmail.com**
 
 ---
